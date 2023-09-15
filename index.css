@@ -1,0 +1,172 @@
+@media screen and (max-width: 767px) {
+    .nav_btn_special{
+        position: absolute;
+        left: -9999px;
+      }
+        .nav_btn:not(:first-child){
+        display: none;
+    }
+    .logo{
+        position: relative;
+        left: -45%;
+        top:0;
+        transform: translate(45%,0%);
+        padding-left: 20px;
+        text-align: left;
+    }
+
+}
+@media screen and (min-width:767px) {
+    .menu_icon{
+        display: none;
+    } 
+}
+
+
+.topnav{
+    background: snow;
+    text-align: center;
+}
+body{
+    background: linear-gradient(45deg,	#ACD6FF,#FFF4C1,#E6CAFF);
+    width: 100%;
+    
+}
+.logo{
+    padding-top: 8px;
+    color: darkred;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+#english_name{
+    font-family: 'Yomogi', cursive;
+    font-size: 18px;
+}
+#name{
+    font-size: 22px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.topnav{
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.5);;
+}
+#intro{
+    padding-top: 85px;
+    padding-bottom: 20px;
+}
+.slogan{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: darkred;
+    padding: 10px;
+}
+#intro_img{
+    box-shadow:15px 15px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.slogan_chinese{
+    font-family: 'Kosugi Maru', sans-serif;
+    padding: 20px;
+}
+button{
+    border: none;
+}
+.more_btn {
+    background: linear-gradient(135deg, #FF6B6B, #FFD166);
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    font-family: 'Poiret One', cursive;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.more_btn:hover{
+    background:linear-gradient(135deg,#E6CAFF,#FFF4C1,#D2E9FF);
+}
+.title{
+    font-size: 55px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    color: darkred;
+}
+
+.introduce{
+    font-family: 'Kosugi Maru', sans-serif;
+    padding: 20px;
+}
+footer{
+    background: snow;
+    font-family: 'Kosugi Maru', 'Yomogi';
+    text-align: center;
+    padding: 10px;
+}
+.slogan_layout{
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 75%;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+img {
+    border-radius: 5px 5px 0 0;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+.container h4{
+    font-family: 'Kosugi Maru', 'Yomogi';
+    padding-top: 10px;
+    color: darkred;
+}
+.container p{
+    font-family: 'Kosugi Maru', 'Yomogi';
+}
+.clearfix {
+    padding: 5px;
+    box-shadow:15px 15px 10px rgba(0, 0, 0, 0.5);
+    background: snow;
+
+  }
+.img_news {
+    float: right;
+}
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.clearfix h2{
+    color: darkred;
+    font-family: 'Poiret One', cursive;
+}
+.nav_btn{
+    display: inline-block; 
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    color: darkgrey;
+}
+.nav_btn:hover{
+    color: darkred;
+}
+.nav_btn_special{
+    display: inline-block; 
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    color: darkgrey;
+}
+.nav_btn_special:hover{
+    color: darkred;
+}

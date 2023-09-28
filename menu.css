@@ -75,6 +75,7 @@ button{
     z-index: 100; /* 確保導覽列處於最上層 */
     text-align: center;
     padding: 10px;
+    left: -1px;
 }
 .menuBtn{
     font-size: 18px;

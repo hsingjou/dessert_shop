@@ -207,8 +207,9 @@ img {
     padding: 5px;
     box-shadow:15px 15px 10px rgba(0, 0, 0, 0.5);
     background: snow;
+    height: 350px;
   }
-.img_menu {
+.img_menu{
     float: right;
 }
   
@@ -217,10 +218,19 @@ img {
     clear: both;
     display: table;
   }
-.clearfix h2{
+.clearfix h4{
     color: darkred;
     font-family: 'Poiret One', 'Kosugi Maru';
+    text-align: left;
 }
 .menu_items{
-    padding-bottom: 10px;
+    padding: 20px;
+}
+.col-sm-4{
+    display: table-cell;
+    padding: 16px;
+}
+.col-container {
+    display: table;
+    width: 100%;
 }

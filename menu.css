@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     #min_767{
         display: none;
     }
@@ -25,12 +25,12 @@
         
     }
 }
-@media screen and (min-width: 767px) {
-    #max_767{
+@media screen and (min-width: 600px) {
+    #max_600{
         display: none;
     }
 }
-@media screen and (min-width:767px) {
+@media screen and (min-width:600px) {
     .menu_icon{
         position: absolute;
         visibility: hidden;
@@ -64,7 +64,7 @@ button{
     border-left:2px dashed #E6CAFF;
     border-right:2px dashed #ACD6FF;
 }
-.menu_max_767{
+.menu_max_600{
     width: 100%;
     background: snow;
     text-align: center;
@@ -194,4 +194,25 @@ img {
     background-color: rgba(96, 25, 25, 0.75);
     z-index: 2;
     cursor: pointer;
+}
+.clearfix {
+    padding: 5px;
+    box-shadow:15px 15px 10px rgba(0, 0, 0, 0.5);
+    background: snow;
+  }
+.img_menu {
+    float: right;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.clearfix h2{
+    color: darkred;
+    font-family: 'Poiret One', 'Kosugi Maru';
+}
+.menu_items{
+    padding-bottom: 10px;
 }

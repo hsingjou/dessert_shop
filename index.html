@@ -35,10 +35,21 @@
             門市據點
             <p id="english_name">Store</p>
         </div>
-     
-        <span class="material-symbols-outlined menu_icon" >
+        <span class="material-symbols-outlined menu_icon" onclick="show_menu_items()" >
             menu
-        </span>         
+        </span>
+        
+        <div id="show_menu_overlay">
+            <span class="material-symbols-outlined" style="float:right; display: block; color: gold; font-size: 50px; padding-right: 20px; padding-top: 20px;" onclick="off_menu_overlay()" >
+                close
+            </span>
+            <div style="margin: 100px auto 20px; color: snow;">
+                <h1 onclick="location.href='about.html'">關於我們</h1>
+                <h1 onclick="location.href='menu.html'">美味甜點</h1>
+                <h1 onclick="location.href='store.html'">門市據點</h1>
+            </div>
+          
+        </div>       
     </div>
 
 
@@ -218,6 +229,6 @@
             </div>
         </div>
     </section>
- 
+<script src="index.js"></script>
 </body>
 </html>

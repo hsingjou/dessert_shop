@@ -14,18 +14,30 @@
         padding-left: 20px;
         text-align: left;
     }
+    .menu_icon{
+        position: relative;
+        left: 10%;
+        top:50%;
+        transform: translate(-10%,-50%);
+        
+    }
 
 }
 @media screen and (min-width:767px) {
     .menu_icon{
-        display: none;
+        position: absolute;
+        visibility: hidden;
     } 
 }
-
+.menu_icon{
+    color: brown;
+    cursor: pointer;
+}
 
 .topnav{
     background: snow;
     text-align: center;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 body{
     background: linear-gradient(45deg,	#ACD6FF,#FFF4C1,#E6CAFF);
@@ -46,9 +58,7 @@ body{
     font-size: 22px;
     font-family: 'Kosugi Maru', sans-serif;
 }
-.topnav{
-    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.5);;
-}
+
 #intro{
     padding-top: 85px;
     padding-bottom: 20px;
@@ -169,4 +179,17 @@ img {
 }
 .nav_btn_special:hover{
     color: darkred;
+}
+#show_menu_overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(96, 25, 25, 0.75);
+    z-index: 2;
+    cursor: pointer;
 }

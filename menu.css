@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     #min_767{
         display: none;
     }
@@ -25,12 +25,12 @@
         
     }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
     #max_600{
         display: none;
     }
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width:1024px) {
     .menu_icon{
         position: absolute;
         visibility: hidden;
@@ -51,6 +51,7 @@ button{
     border: none;
     background: transparent;
     text-align: center;
+    color: black;
    
 }
 .menubtn{
@@ -59,6 +60,7 @@ button{
     width: 170px;
     height: 45px;
     vertical-align: middle;
+    color: black;
 }
 .menubtn:hover{
     border-left:2px dashed #E6CAFF;

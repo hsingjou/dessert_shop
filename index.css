@@ -15,10 +15,7 @@
         text-align: left;
     }
     .menu_icon{
-        position: relative;
-        left: 10%;
-        top:50%;
-        transform: translate(-10%,-50%);
+       float: right;
         
     }
 

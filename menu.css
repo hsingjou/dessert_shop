@@ -1,7 +1,5 @@
-@media screen and (max-width: 1024px) {
-    #min_767{
-        display: none;
-    }
+@media screen and (max-width: 767px) {
+
     .nav_btn_special{
         position: absolute;
         left: -9999px;
@@ -30,7 +28,12 @@
         display: none;
     }
 }
-@media screen and (min-width:1024px) {
+@media screen and (max-width:1024px) {
+    #min_767{
+        display: none;
+    }
+}
+@media screen and (min-width:767px) {
     .menu_icon{
         position: absolute;
         visibility: hidden;
@@ -207,7 +210,9 @@ img {
     padding: 5px;
     box-shadow:15px 15px 10px rgba(0, 0, 0, 0.5);
     background: snow;
-    height: 350px;
+    height: 450px;
+    text-align: center;
+    font-family: 'Poiret One', 'Kosugi Maru';
   }
 .img_menu{
     float: right;
@@ -221,7 +226,6 @@ img {
 .clearfix h4{
     color: darkred;
     font-family: 'Poiret One', 'Kosugi Maru';
-    text-align: left;
 }
 .menu_items{
     padding: 20px;

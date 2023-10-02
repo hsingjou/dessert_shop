@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 
     .nav_btn_special{
         position: absolute;
@@ -15,34 +15,43 @@
         padding-left: 20px;
         text-align: left;
     }
+    .clearfix{
+        height: 445px;
+    }
     .menu_icon{
         float: right;
         padding-top: 20px;
-        padding-right: 20px;
+        padding-right: 20px; 
      }
-    .clearfix{
-        height: 400px;
-    }
 }
-@media screen and (min-width: 1024px) {
-    #max_600{
-        display: none;
-    }
-}
-@media screen and (max-width:1024px) {
-    #min_767{
-        display: none;
-    }
-}
-@media screen and (min-width:600px) {
+@media screen and (min-width:767px) {
     .menu_icon{
         position: absolute;
         visibility: hidden;
     } 
-    .clearfix{
-        height: 350px;
+}
+@media screen and (min-width: 1024px) {
+    #mobile{
+        display: none;
+    }
+    #computer{
+        display: block;
     }
 }
+@media screen and (max-width:1024px) {
+    #computer{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+}
+@media screen and (min-width:600px) {
+    .clearfix{
+        height: 400px;
+    }
+}
+
 .menu_icon{
     color: brown;
     cursor: pointer;
@@ -73,7 +82,7 @@ button{
     border-left:2px dashed #E6CAFF;
     border-right:2px dashed #ACD6FF;
 }
-.menu_max_600{
+.menu_mobile{
     width: 100%;
     background: snow;
     text-align: center;
@@ -156,6 +165,7 @@ footer{
     width: 30%;
     border-radius: 5px;
     padding: 10px;
+    height: 350px;
 }
   
 .card:hover {
@@ -233,11 +243,6 @@ img {
 .menu_items{
     padding: 20px;
 }
-.col-sm-4{
-    display: table-cell;
-    padding: 16px;
-}
-.col-container {
-    display: table;
-    width: 100%;
+#other{
+    padding-bottom: 30px;
 }

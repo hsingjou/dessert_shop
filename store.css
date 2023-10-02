@@ -15,12 +15,11 @@
         text-align: left;
     }
     .menu_icon{
-        position: relative;
-        left: 10%;
-        top:50%;
-        transform: translate(-10%,-50%);
-        
-    }
+        float: right;
+        padding-top: 20px;
+        padding-right: 20px;
+         
+     }
 
 }
 @media screen and (min-width:767px) {

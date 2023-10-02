@@ -246,3 +246,25 @@ img {
 #other{
     padding-bottom: 30px;
 }
+#show_item1_overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    cursor: pointer;
+    background:linear-gradient(135deg,#FFF4C1,	#FFD2D2);
+}
+.item1_content{
+    margin: 100px auto 20px;
+    padding: 20px;
+    font-family: 'Poiret One', 'Kosugi Maru';
+    position: relative;
+    max-width: 100%;
+    height: 350px;
+    width: 500px;
+}

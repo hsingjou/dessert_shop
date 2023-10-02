@@ -82,7 +82,32 @@
                             <div class="container">
                                 <h4><b>港式月餅</b></h4> 
                                 <p>香滑蓮蓉，酥皮融合，港式月餅，一口幸福滋味。</p> 
-                                <button class="button">查看商品說明</button>
+                                <button class="button" onclick="show_item1_overlay()">查看商品說明</button>
+                            </div>
+                            <div id="show_item1_overlay"onclick="off_item1_overlay()">
+                                <div class="item1_content">
+                                    <h4 style="color: darkred;">港式月餅</h4>
+                                    <p>品味經典港式月餅，內含香甜的鳳梨酥，每一口都是幸福的滋味。餅皮香脆，餡料濃郁，將傳統與創新完美融合。享受這份獨特的美味，讓節慶更加特別！</p>
+                                    <p style="color: darkred;">價格</p>
+                                    <ul>
+                                        <li>單顆：50元</li>
+                                        <li>禮盒（8顆）：385元
+                                        <li style="color: red;">禮盒早鳥價：375元（即日起至9/20）</li>
+                                    </ul>
+                                    <p style="color: darkred;">餅皮成分</p>
+                                    <ul>
+                                        <li>麵粉</li>
+                                        <li>豬油</li>
+                                        <li>水</li> 
+                                        <li>鹽</li> 
+                                    </ul>
+                                    <p style="color: darkred;">內餡成分</p>
+                                    <ul>
+                                        <li>鳳梨醬</li>
+                                        <li>砂糖</li> 
+                                        <li>麵粉</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="card" style="display:inline-block;">
@@ -314,10 +339,17 @@
                             <img src="https://images.pexels.com/photos/9863598/pexels-photo-9863598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Avatar" style="width:100%">
                                 <h4><b>港式月餅</b></h4> 
                                 <p>香滑蓮蓉，酥皮融合，港式月餅，一口幸福滋味。</p> 
-                                <button class="button">查看商品說明</button> 
+                                <button class="button" onclick="show_item1_overlay()">查看商品說明</button> 
                         </div>
+
                     </div>
                 </div>
+                <div id="show_item1_overlay"onclick="off_item1_overlay()">
+                    <div class="item1_content">
+                        <h4>港式月餅</h4>
+                    </div>
+                </div>
+
                 <div class="col-sm-4">
                     <div class="menu_items">
                         <div class="clearfix">
